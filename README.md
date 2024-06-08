@@ -1,46 +1,38 @@
-AutoOrganise: Your Intelligent File Sorter
-AutoOrganise is a Python script designed to effortlessly declutter your folders by automatically sorting files based on their type.
+# AutoOrganise: Your Intelligent File Sorter
 
-Tired of messy downloads folders or disorganized project directories? AutoOrganise is here to save the day! With a simple command, it will neatly categorize your files into folders like "Images," "Documents," "Music," and more.
+Effortlessly declutter your folders by automatically sorting files based on their type (e.g., images, documents, music). 
 
-Features
-Automatic Sorting: AutoOrganise intelligently analyzes file extensions and moves files to the appropriate folders.
-Customizable: Easily add or modify the file types and folder names that AutoOrganise recognizes.
-Safe and Efficient: Creates folders as needed and avoids overwriting files with the same name.
-User-Friendly: Provides clear feedback on the progress of the file organization process.
-Installation
-Prerequisites: Ensure you have Python installed on your system.
-Download: Clone this repository or download the Organise.py script.
-Customize (Optional): Open the script and modify the extensions dictionary to match your preferred file types and folder names.
-Usage
-Open your terminal or command prompt.
-Navigate to the directory containing the script:
-Bash
-cd path/to/AutoOrganise
-Use code with caution.
-content_copy
-Run the script:
-Bash
-python Organise.py
-Use code with caution.
-content_copy
-Specify the target directory (optional):
-If you want to organize a specific folder, replace directory = r'C:\Users\YourUserName\Downloads' in the script with the path to your desired folder.
-If you leave the default directory, the script will organize files in the current directory where it's running.
-Supported File Types (Default)
-AutoOrganise comes with a set of default file types and folder mappings:
+**Key Features:**
 
-Images: .jpg, .jpeg, .png, .gif
-Documents: .pdf, .docx, .txt
-Music: .mp3, .wav
-Videos: .mp4, .avi, .mkv
-Compressed: .zip, .rar
-Executables: .exe
-Feel free to customize this list to suit your needs!
+* **Automatic Sorting:** Intelligently analyzes file extensions.
+* **Customizable:** Add or modify recognized file types and folder names.
+* **Safe & Efficient:** Creates folders as needed, avoids overwrites.
+* **User-Friendly:** Provides clear feedback on progress.
 
-Contributing
-Contributions are welcome! If you have suggestions for improvement, new features, or bug fixes, please open an issue or submit a pull request.
+**Installation:**
 
-Acknowledgements
-Thanks to the Python community for the awesome os and shutil modules!
-Inspired by the need for a cleaner desktop. 😊
+1. Ensure you have Python installed.
+2. Download `Organise.py`.
+3. (Optional) Customize the `extensions` dictionary in the script.
+
+**Usage:**
+
+1. Open your terminal.
+2. Navigate to the script's directory: `cd path/to/AutoOrganise`
+3. Run: `python Organise.py`
+4. (Optional) Replace `directory = ...` in the script to target a specific folder.
+
+**Supported File Types (Default):**
+
+* Images: `.jpg`, `.jpeg`, `.png`, `.gif`
+* Documents: `.pdf`, `.docx`, `.txt`
+* Music: `.mp3`, `.wav`
+* Videos: `.mp4`, `.avi`, `.mkv`
+* Compressed: `.zip`, `.rar`
+* Executables: `.exe`
+
+**Contributions Welcome!** 
+
+Feel free to suggest improvements or submit a pull request.
+
+Let AutoOrganise bring order to your digital chaos! 😊
