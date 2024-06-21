@@ -1,8 +1,20 @@
 import os
 import shutil
+import tkinter as tk
+from tkinter import filedialog
 
-# Define the directory to organize
-directory = 'C:\\Users\\YourUserName\\Downloads'  # Replace with your desired directory
+def select_directory():
+    root = tk.Tk()
+    root.withdraw()  # Hide the main window
+    directory = filedialog.askdirectory()  # Show the dialog to choose a directory
+    root.destroy()  # Destroy the root window
+    return directory
+
+# Use the selected directory
+directory = select_directory()
+if not directory:
+    print("No directory selected. Exiting...")
+    exit()
 
 # Dictionary mapping file extensions to folder names
 extensions = {
