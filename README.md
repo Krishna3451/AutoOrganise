@@ -13,7 +13,6 @@ Effortlessly declutter your folders by automatically sorting files based on thei
 
 1. Ensure you have Python installed.
 2. Download `Organise.py`.
-3. (Optional) Customize the `extensions` dictionary in the script.
 
 **Usage:**
 
