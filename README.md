@@ -19,7 +19,7 @@ Effortlessly declutter your folders by automatically sorting files based on thei
 1. Open your terminal.
 2. Navigate to the script's directory: `cd path/to/AutoOrganise`
 3. Run: `python Organise.py`
-4. (Optional) Replace `directory = ...` in the script to target a specific folder.
+
 
 **Supported File Types (Default):**
 
